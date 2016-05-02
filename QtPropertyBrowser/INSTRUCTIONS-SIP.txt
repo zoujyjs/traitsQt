@@ -1,0 +1,10 @@
+To build the python binding of QtProertyBrowser using sip,
+Run:
+>>python build_sip.py [--msvc 11/12/14]
+
+The default vs tool-chain (nmake, VsDevCmd.bat) is msvc 14 (Microsoft Visual Studio 2015).
+
+The libs is built to "./lib" by the script.
+
+hzzoujunyang@corp.netease.com
+
